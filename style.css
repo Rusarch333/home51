@@ -23,7 +23,6 @@ button {
 }
 .flex-direction-area {
   display: flex;
-  flex-direction: row;
   gap: 0.17rem;
   width: 500px;
   padding: 0.08rem;
