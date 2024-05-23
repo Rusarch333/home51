@@ -5,29 +5,37 @@
   font-family: Helvetica, sans-serif;
   font-size: 12px;
 }
+button {
+  cursor: pointer;
+}
 .flex-direction-button {
-  padding: 15px 15px;
+  padding: 1.25rem 1.25rem;
   border: 2px solid #4dc3fb;
-  margin-right: 5px;
+  margin-right: 0.42rem;
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: 800;
   text-transform: uppercase;
 }
+.flex-direction-button-active {
+  color: #fff;
+  background-color: #4dc3fb;
+}
 .flex-direction-area {
   display: flex;
-  gap: 2px;
+  flex-direction: row;
+  gap: 0.17rem;
   width: 500px;
-  padding: 1px;
+  padding: 0.08rem;
   border: 1px dotted #000;
-  outline-offset: 5px;
+  outline-offset: 0.42rem;
   outline: 2px solid #4dc3fb;
-  margin-top: 20px;
-  margin-left: 7px;
+  margin-top: 1.67rem;
+  margin-left: 0.58rem;
 }
 .flex-direction-area-item {
   height: 150px;
-  padding: 60px 10px;
+  padding: 5rem 0.83rem;
   color: #1d6a8b;
   background-color: #98dffb;
   font-size: 2.3rem;
